@@ -1,0 +1,9 @@
+PATH:
+
+export PATH=usr/libexec/java_home:$PATH
+sudo bash -c "echo 'export PATH=$PATH:/usr/libexec/java_home'>> /etc/bashrc"
+
+JAVA HOME:
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+sudo bash -c "echo 'export JAVA_HOME=$(/usr/libexec/java_home)'>> /etc/bashrc"
